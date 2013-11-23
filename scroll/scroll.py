@@ -12,10 +12,10 @@ class Scroll(object):
         self.resolution = resolution
         self.is_running = False
         self.clock = pygame.time.Clock()
+        self.screen = pygame.display.set_mode(self.resolution)
         self.deltatime = 0
 
     def run(self):
-        self.screen = pygame.display.set_mode(self.resolution)
         self.is_running = True
 
         while self.is_running:
