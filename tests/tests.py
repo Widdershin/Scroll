@@ -1,5 +1,5 @@
 import sys
-sys.path.append("..\scroll")
+sys.path.append("../scroll")
 
 import unittest
 
