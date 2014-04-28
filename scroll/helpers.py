@@ -20,8 +20,8 @@ class Position(tuple):
     def __sub__(self, other):
         return self._operator_on_other(other, operator.sub)
 
-    def __div__(self, other):
-        return self._operator_on_other(other, operator.div)
+    def __truediv__(self, other):
+        return self._operator_on_other(other, operator.truediv)
 
     def _operator_on_other(self, other, operator):
         try:

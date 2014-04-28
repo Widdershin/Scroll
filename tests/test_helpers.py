@@ -29,3 +29,10 @@ class TestPosition(unittest.TestCase):
         b = a * 2
 
         self.assertEqual(b, (4, 17))
+
+    def test_division(self):
+        a = Position(50, 44)
+
+        b = a / 2
+
+        self.assertEqual(b, (25, 22))
