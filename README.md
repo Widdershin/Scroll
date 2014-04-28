@@ -1,4 +1,4 @@
 Scroll
 ======
 
-Scroll is a PyGame wrapper, to help you quickly create modular 2D games
+Scroll is a Roguelike framework built on top of Pyglet.
